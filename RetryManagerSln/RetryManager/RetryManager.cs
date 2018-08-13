@@ -24,6 +24,8 @@ namespace RetryManager
 
                     if (tryAttempt > retryCount)
                         throw;
+
+                    Task.Delay(retryDuration.GetTimeToWaitInMs());
                 }
             }
             while (tryAttempt <= retryCount);

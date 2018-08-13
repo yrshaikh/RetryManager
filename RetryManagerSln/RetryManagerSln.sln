@@ -3,9 +3,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.27703.2000
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsoleApp", "ConsoleApp\ConsoleApp.csproj", "{C6DBF3EC-4AFF-4552-9516-F39EA79FE3C2}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ConsoleApp", "ConsoleApp\ConsoleApp.csproj", "{C6DBF3EC-4AFF-4552-9516-F39EA79FE3C2}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RetryManager", "RetryManager\RetryManager.csproj", "{5050F0CA-6331-41C2-85C9-2EC237D5BB6C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RetryManager", "RetryManager\RetryManager.csproj", "{5050F0CA-6331-41C2-85C9-2EC237D5BB6C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tests", "Tests\Tests.csproj", "{EE727935-FFE0-4FF6-B17A-D9F1E9CEDB3E}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,6 +23,10 @@ Global
 		{5050F0CA-6331-41C2-85C9-2EC237D5BB6C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{5050F0CA-6331-41C2-85C9-2EC237D5BB6C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{5050F0CA-6331-41C2-85C9-2EC237D5BB6C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EE727935-FFE0-4FF6-B17A-D9F1E9CEDB3E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EE727935-FFE0-4FF6-B17A-D9F1E9CEDB3E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EE727935-FFE0-4FF6-B17A-D9F1E9CEDB3E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EE727935-FFE0-4FF6-B17A-D9F1E9CEDB3E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

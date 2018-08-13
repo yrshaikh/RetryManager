@@ -4,3 +4,6 @@ RetryManagerSln/ConsoleApp/bin/
 RetryManagerSln/RetryManager/obj/*
 RetryManagerSln/RetryManager/bin/
 RetryManagerSln/.vs/RetryManagerSln/DesignTimeBuild/.dtbcache
+RetryManagerSln/Tests/bin/*
+RetryManagerSln/Tests/obj/*
+RetryManagerSln/Tests/Properties/*
